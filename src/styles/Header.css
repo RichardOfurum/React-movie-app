@@ -1,0 +1,46 @@
+.header {
+	background-color: #373b69;
+
+	/* color: #22254b; */
+	padding: 1rem;
+	width: 100%;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	overflow-x: hidden;
+}
+
+.search {
+	font-family: inherit;
+	border-radius: 30px;
+	border: 2px solid #22254b;
+	color: #eee;
+	outline: none;
+	font-size: 1.2rem;
+	background-color: transparent;
+	padding: 0.5rem 1.5rem;
+}
+
+.header h4 {
+	color: #eee;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: larger;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.header h4 {
+		font-size: small;
+	}
+
+	.search {
+		width: 200px;
+		height: 30px;
+		font-size: small;
+	}
+}
